@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Análise de Dados com IA</title>
+  <link rel="stylesheet" href="../frontend/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Análise de Dados com IA</h1>
+    <p>Faça uma pergunta sobre o banco de dados.</p>
+    <div class="input-area">
+      <input type="text" id="questionInput" placeholder="Ex: Qual o filme mais alugado?">
+      <button id="sendButton">Perguntar</button>
+    </div>
+    <div class="result-area">
+      <h2>Consulta SQL Gerada:</h2>
+      <pre id="sqlQuery"></pre>
+      <h2>Resultado:</h2>
+      <div id="resultTable"></div>
+    </div>
+  </div>
+  <script src="../frontend/script.js"></script>
+</body>
+</html>
